@@ -1,29 +1,16 @@
-# bill
+# INVOICE - APP
 
-## Project setup
-```
-npm install
-```
+![N|Solid](https://cdn.iconscout.com/icon/premium/png-256-thumb/invoice-233-1055752.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your unit tests
-```
-npm run test:unit
-```
+### Installation
 
-### Lints and fixes files
-```
-npm run lint
-```
+requires install global  [Vue cli](https://cli.vuejs.org/).
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```sh
+$ cd invoice-app
+$ npm install
+$ npm run electron:serve
+```
