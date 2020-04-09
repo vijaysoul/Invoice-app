@@ -43,11 +43,7 @@ export default {
   },
   mounted() {
         database.all("SELECT * FROM CUSTOMERS", (err,data) => {
-          if (err) console.log(err);
-          else {
-            console.log(data[0]);
             this.customers=data;
-          }
         });
   }
 };
